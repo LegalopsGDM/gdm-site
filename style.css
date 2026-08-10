@@ -134,6 +134,17 @@ section h3 {
   max-width: 640px;
 }
 
+section > .wrap > p a {
+  text-decoration: underline;
+  text-decoration-color: rgba(131,72,38,0.5);
+  text-underline-offset: 3px;
+}
+
+section > .wrap > p a:hover {
+  color: var(--marrom);
+  text-decoration-color: var(--marrom);
+}
+
 section > .wrap > p {
   font-size: 19px;
   font-weight: 500;
