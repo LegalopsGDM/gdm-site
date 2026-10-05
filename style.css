@@ -228,6 +228,18 @@ form { display: flex; flex-direction: column; gap: 14px; }
   max-width: 480px;
 }
 
+.form-note a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(131,72,38,0.5);
+  text-underline-offset: 2px;
+}
+
+.form-note a:hover {
+  color: var(--marrom);
+  text-decoration-color: var(--marrom);
+}
+
 .contact-info { font-size: 17px; font-weight: 500; color: var(--verde-01); }
 .contact-info p { margin-bottom: 10px; }
 .contact-info a:hover { color: var(--marrom); }
